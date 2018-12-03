@@ -17,7 +17,7 @@ ui <- fluidPage(
                   min = 1, max = 12, value = 1,
                   step = 1, animate = TRUE),
       
-      sliderInput("slider3", h5("time"),
+      sliderInput("slider3", h5("Hour"),
                   min = 0, max = 23, value = 0,
                   step = 1, animate = TRUE)
     ),
