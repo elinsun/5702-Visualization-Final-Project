@@ -3,8 +3,8 @@ Fall 2018, 5702 Exploratory Data Analysis and Visualization
 
 Three main functions:
 - visualize NYC crime rate from 2013 to 2017
-- visualize NYC airbnb listing info including location, price, number of accommendates, etc.
-- provide commute time from any location to tourist attractions in NYC
+- visualize NYC airbnb listing infos including location, price, number of accommendates, etc.
+- provide commute time from any locations to tourist attractions in NYC
 
 
 Reference:

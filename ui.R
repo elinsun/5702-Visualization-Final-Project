@@ -22,7 +22,7 @@ ui <- fluidPage(
                   step = 1, animate = TRUE),
       
       selectInput("select_borough", "Boroughs", 
-                  choices = list("Manhattan", "Brooklyn", "Queens",
+                  choices = c("Manhattan", "Brooklyn", "Queens",
                                      "Staten Island", "The Bronx"), selected = "Manhattan"),
           
       selectInput("select_attraction", "Attractions",
@@ -32,8 +32,6 @@ ui <- fluidPage(
                                      "Intrepid Sea Air & Space Museum",
                                      "Central Park", "New York Public Library"), selected = "Empire State Building"),
           
-
-
       verbatimTextOutput("output_time")
     ),
     
