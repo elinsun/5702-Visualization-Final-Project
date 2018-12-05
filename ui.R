@@ -19,7 +19,22 @@ ui <- fluidPage(
       
       sliderInput("slider3", h5("Hour"),
                   min = 0, max = 23, value = 0,
-                  step = 1, animate = TRUE)
+                  step = 1, animate = TRUE),
+      
+      selectInput("select_borough", "Boroughs", 
+                  choices = list("Manhattan", "Brooklyn", "Queens",
+                                     "Staten Island", "The Bronx"), selected = "Manhattan"),
+          
+      selectInput("select_attraction", "Attractions",
+                  choices = list("Empire State Building", "Museum of Modern Art", 
+                                     "American Museum of Natural History", "Top of the Rock", 
+                                     "Guggenheim Museum", "9/11 Memorial",
+                                     "Intrepid Sea Air & Space Museum",
+                                     "Central Park", "New York Public Library"), selected = "Empire State Building"),
+          
+
+
+      verbatimTextOutput("output_time")
     ),
     
     mainPanel(leafletOutput("mymap", height = 1000))

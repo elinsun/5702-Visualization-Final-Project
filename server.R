@@ -104,4 +104,41 @@ server <- function(input, output, session){
       return()
     isolate({airbnbPopup(event$lat, event$lng)})   
   })
+
+
+  #section 3
+  # Display point according to selected boroughs
+  ######################## TO DO ########################################
+  observeEvent(input$slider3, {
+
+    filtered <- df %>% filter(** == input$select_borough)
+
+      leafletProxy("mymap", data = filtered) %>%
+        clearShapes() %>%
+        clearPopups() %>%
+        addCircles(lng = filtered$longitude, lat = filtered$latitude,
+                   radius=50, color='purple',
+                   stroke=FALSE, fillOpacity=0.4)
+    
+  })
+
+  #section 4
+  # Calculate distance between clicked point and a certain attraction
+  observeEvent(input$map_click, {
+  
+    attr <- attractions %>% filter(places == input$select_attraction)
+    attr_lng <- as.character(attr$longitude) 
+    attr_lat <- as.character(attr$latitude)
+    attr_str <- paste(c(attr_lat,'+',attr_lng), collapse='')
+
+    click <- input$map_click
+    lat <- as.character(click$lat)
+    lng <- as.character(click$lng)
+    input_str <- paste(c(lat,'+',lng), collapse='')
+
+    set.api.key("AIzaSyABKQj5-Tnrj_s423964IJsYMBqwnEVoWA")
+    test <- gmapsdistance(origin = input_str, destination = attr_str,
+                          mode ="transit", key = get.api.key())
+    output$output_time <- renderText(as.character(test$Time))
+  })
 }
