@@ -9,5 +9,5 @@ Three main functions:
 
 Reference:
 
-Data source: NYC OpenData https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i/data
+Data source: https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i/data (NYC OpenData)
 zipcode source: https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm
