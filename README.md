@@ -1,7 +1,7 @@
 # An Interactive Map for Travellers to NYC
 Fall 2018, 5702 Exploratory Data Analysis and Visualization
 
-Link to demo: https://garypb.shinyapps.io/project/
+Demo: https://garypb.shinyapps.io/project/
 
 Three main functions:
 - visualize NYC crime rate from 2013 to 2017
