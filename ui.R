@@ -8,6 +8,7 @@ ui <- fluidPage(
                    choices = c("Year", "Month","Time"), 
                    selected = "Year", inline = TRUE),
       
+      
       sliderInput("slider1", h5("Year"),
                   min = 2013, max = 2017, value = 2013,
                   step = 1, animate = TRUE,
