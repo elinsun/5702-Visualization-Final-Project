@@ -10,8 +10,8 @@ An interactive map to visualize NYC neighborhood safety and short-term rental pr
 
 Three main functions:
 - visualize NYC crime rate from 2013 to 2017
-- visualize NYC airbnb listing infos including location, price, number of accommendates, etc.
-- provide commute time from any locations to tourist attractions in NYC
+- visualize NYC airbnb listing information including location, price, number of accommendates, etc.
+- provide a function to calculate commute time from any locations to tourist attractions in NYC
 
 
 Data source: 
