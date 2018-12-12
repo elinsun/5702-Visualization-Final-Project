@@ -3,9 +3,11 @@ Fall 2018, 5702 Exploratory Data Analysis and Visualization
 
 0. Demo here https://garypb.shinyapps.io/project/
 - click on blue markers to see Airbnb listings information; 
-- zoom in and click on colored circle markers to find more.
+- zoom in and click on colored circle markers to find out more.
 
 Have fun!
+
+
 
 1. Purpose:
 
