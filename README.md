@@ -1,7 +1,12 @@
 # An Interactive Map for Travellers to NYC
 Fall 2018, 5702 Exploratory Data Analysis and Visualization
 
-Demo: https://garypb.shinyapps.io/project/
+0. Demo: https://garypb.shinyapps.io/project/
+Playing with the map: 
+- click on blue markers to see Airbnb listings information; 
+- zoom in and click on colored circle markers to find more.
+
+Have fun!
 
 1. Purpose:
 
