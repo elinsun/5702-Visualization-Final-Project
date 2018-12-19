@@ -1,4 +1,5 @@
 # An Interactive Map for Travellers to NYC
+
 Fall 2018, 5702 Exploratory Data Analysis and Visualization
 
 0. Demo here https://garypb.shinyapps.io/project/
@@ -26,3 +27,7 @@ An interactive map to visualize NYC neighborhood safety and short-term rental pr
 
 4. Reference
 - zipcode source: https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm
+
+5. Collaborators
+
+Gary Buranasampatanon (pb2632), Linxiuzhi Yang (ly2465), Yilin Sun (ys2780)
