@@ -115,7 +115,6 @@ server <- function(input, output, session){
   
   #section 3
   # Display point according to selected boroughs
-  ######################## TO DO ########################################
   observeEvent(input$select_borough, {
     if(input$select_borough == 'Manhattan'){
       setView(map = leafletProxy("mymap"), lng=-73.9712, lat=40.7831, zoom=12)
