@@ -10,8 +10,7 @@ Fall 2018, 5702 Exploratory Data Analysis and Visualization
 
 
 1. Purpose:
-
-An interactive map to visualize NYC neighborhood safety and short-term rental price. 
+- An interactive map to visualize NYC neighborhood safety and short-term rental price. 
 
 
 2. Three main functions:
@@ -29,5 +28,4 @@ An interactive map to visualize NYC neighborhood safety and short-term rental pr
 - zipcode source: https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm
 
 5. Collaborators
-
-Gary Buranasampatanon (pb2632), Linxiuzhi Yang (ly2465), Yilin Sun (ys2780)
+- Gary Buranasampatanon (pb2632), Linxiuzhi Yang (ly2465), Yilin Sun (ys2780)
