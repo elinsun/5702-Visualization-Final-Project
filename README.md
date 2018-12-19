@@ -21,8 +21,12 @@ Fall 2018, 5702 Exploratory Data Analysis and Visualization
 
 3. Data source: 
 
-- Crime Rate (NYC OpenData) https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i/data 
-- Airbnb Listings (Inside Airbnb) http://insideairbnb.com
+- Crime Rate (NYC OpenData) 
+
+https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i/data 
+- Airbnb Listings (Inside Airbnb) 
+
+http://insideairbnb.com
 
 4. Reference
 - zipcode source: https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm
